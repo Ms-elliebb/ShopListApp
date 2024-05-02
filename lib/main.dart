@@ -16,12 +16,12 @@ class MyApp extends StatelessWidget {
     title:'ShopList',
    initialRoute: '/',
     routes:{
-      '/':(context) => LoginScreen(),
-      '/register':(context) => RegisterScreen(),
+      '/':(context) => const LoginScreen(),
+      '/register':(context) => const RegisterScreen(),
   },
   );
 
-    ;
+    
   }
 }
 
