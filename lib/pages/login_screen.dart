@@ -57,6 +57,9 @@ class LoginScreen extends StatelessWidget {
                   ElevatedButton(
                     onPressed: () {
                       // Giriş yapma işlemleri
+                     
+                     Navigator.pushNamed(context, '/home');
+                      
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor:   Colors.red[900],
