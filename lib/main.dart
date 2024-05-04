@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const LoginScreen(), // Route for the login screen.
         '/register': (context) => const RegisterScreen(), // Route for the registration screen.
         '/home': (context) => const HomePage(), // Route for the home page.
-        '/list': (context) => const ListPage(), // Route for the list page.
+        '/list': (context) => const ListPage(title: '',), // Route for the list page.
       },
     );
   }
